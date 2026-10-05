@@ -1,42 +1,29 @@
-# Hi there, I'm Ahmed Atef Hegazy! 👋
+# Ahmed Atef-Hegazy
 
-I'm a passionate software developer with a love for technology and innovation. I enjoy working on a variety of projects, from web development to machine learning, and I'm always eager to learn new skills and technologies.
+Backend developer working with C# and ASP.NET Core. I build Web APIs on SQL Server and PostgreSQL at DoiT Link LLC.
 
-## 🔭 Current Projects
-- **[Project 1](https://github.com/AhmedAtefHegazy/Project1):** A modern web application built using React and Node.js.
-- **[Project 2](https://github.com/AhmedAtefHegazy/Project2):** A machine learning project exploring different algorithms for data analysis.
-- **[Project 3](https://github.com/AhmedAtefHegazy/Project3):** An open-source library for easy integration with cloud services.
+## What I work on
 
-## 🌱 Learning
-- Deepening my knowledge in machine learning and artificial intelligence.
-- Improving my skills in cloud computing platforms like AWS and Azure.
+Most of my professional code lives in private company repositories, so it is not visible on this profile. This is what I build there:
 
-## 💬 Ask me about
-- Web development (JavaScript, React, Node.js)
-- Machine learning and data science
-- Software design patterns and best practices
+- **RepriceMax**: multi-tenant Amazon repricing SaaS (.NET 9, EF Core, SQL Server). Stripe subscription billing, a scheduled workflow engine, and REST integrations with inventory systems.
+- **aqar.eg**: real-estate marketplace for Egypt (.NET 10, EF Core, PostgreSQL / PostGIS). Backend API in Clean Architecture with geo search, JWT and OTP authentication, role-based access, and fraud checks.
+- **Veerly**: driving-test preparation app (.NET 10, EF Core, SQL Server). Text-to-speech pipeline on Azure AI Speech and server-side validation of in-app purchases.
+- **NonArabs API** (freelance): online Arabic-lessons platform (.NET 8, EF Core, SQL Server, SignalR). Booking, lesson scheduling, real-time chat, and background jobs.
 
-## 📫 How to reach me
-- Email: [your-email@example.com](mailto:your-email@example.com)
-- LinkedIn: [linkedin.com/in/your-profile](https://www.linkedin.com/in/your-profile)
-- Twitter: [@your_twitter](https://twitter.com/your_twitter)
+## Stack
 
-## ⚡ Fun fact
-- I love solving puzzles and playing strategy games in my free time.
+C# · ASP.NET Core Web API · Entity Framework Core · SQL Server · PostgreSQL · SignalR · xUnit · Docker · GitHub Actions
 
-## 🛠️ Technologies & Tools
-- **Languages:** JavaScript, Python, Java, C++
-- **Frameworks:** React, Node.js, Express, Django
-- **Databases:** MySQL, MongoDB, PostgreSQL
-- **Tools:** Git, Docker, Kubernetes, Jenkins
+## Public repositories
 
-## 📊 GitHub Stats
-![AhmedAtefHegazy's GitHub stats](https://github-readme-stats.vercel.app/api?username=AhmedAtefHegazy&show_icons=true&theme=radical)
+These are learning projects from before my first job:
 
-## 🏆 GitHub Trophies
-![trophy](https://github-profile-trophy.vercel.app/?username=AhmedAtefHegazy&theme=monokai)
+- [E-commerce-Practice-project](https://github.com/AhmedAtefHegazy/E-commerce-Practice-project): ASP.NET Core MVC with N-tier architecture, Repository and Unit of Work, and ASP.NET Core Identity
+- [DVLD-WinForm](https://github.com/AhmedAtefHegazy/DVLD-WinForm): driving-licence management system in C# with a 3-tier architecture and SQL Server
+- [flutter-app-back-end](https://github.com/AhmedAtefHegazy/flutter-app-back-end): ASP.NET Core Web API backend for a mobile app
 
-## 📈 Top Languages
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AhmedAtefHegazy&layout=compact&theme=radical)
+## Contact
 
-Thanks for visiting my profile! Feel free to connect with me or check out my repositories. 😊
+- LinkedIn: [linkedin.com/in/ahmed-atef-hegazy](https://www.linkedin.com/in/ahmed-atef-hegazy)
+- Email: ahmedatef10987@gmail.com
