@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 82" width="720" height="82" role="img" aria-labelledby="t d">
+  <title id="t">How a request moves through the APIs I build</title>
+  <desc id="d">Client, then the ASP.NET Core API (auth and validation), then the application layer (business rules), then infrastructure (EF Core and background jobs), then the database (SQL Server or PostgreSQL).</desc>
+  <style>
+    .box { fill: #161b22; stroke: #30363d; stroke-width: 1.2; animation: pulse 5s ease-out infinite; }
+    .t { font: 600 13px 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; fill: #e6edf3; text-anchor: middle; }
+    .s { font: 10.5px 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; fill: #8b949e; text-anchor: middle; }
+    .wire { stroke: #6e7681; stroke-width: 1.5; stroke-dasharray: 3 3; animation: march 0.7s linear infinite; animation-delay: 0.00s; }
+    @keyframes pulse { 0% { stroke: #a78bfa; stroke-width: 1.8; } 22% { stroke: #30363d; stroke-width: 1.2; } 100% { stroke: #30363d; stroke-width: 1.2; } }
+    @keyframes march { from { stroke-dashoffset: 6; } to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) { .box, .wire { animation: none !important; } }
+  </style>
+  <rect class="box" style="animation-delay: 0.00s" x="5" y="10" width="126" height="62" rx="10"/>
+  <text x="68" y="39" class="t">Client</text>
+  <text x="68" y="58" class="s">web and mobile apps</text>
+  <line class="wire" x1="133" y1="41" x2="145" y2="41"/>
+  <path d="M144 37 L150 41 L144 45 Z" fill="#6e7681"/>
+  <rect class="box" style="animation-delay: 0.80s" x="151" y="10" width="126" height="62" rx="10"/>
+  <text x="214" y="39" class="t">ASP.NET Core API</text>
+  <text x="214" y="58" class="s">auth · validation</text>
+  <line class="wire" x1="279" y1="41" x2="291" y2="41"/>
+  <path d="M290 37 L296 41 L290 45 Z" fill="#6e7681"/>
+  <rect class="box" style="animation-delay: 1.60s" x="297" y="10" width="126" height="62" rx="10"/>
+  <text x="360" y="39" class="t">Application</text>
+  <text x="360" y="58" class="s">business rules</text>
+  <line class="wire" x1="425" y1="41" x2="437" y2="41"/>
+  <path d="M436 37 L442 41 L436 45 Z" fill="#6e7681"/>
+  <rect class="box" style="animation-delay: 2.40s" x="443" y="10" width="126" height="62" rx="10"/>
+  <text x="506" y="39" class="t">Infrastructure</text>
+  <text x="506" y="58" class="s">EF Core · jobs</text>
+  <line class="wire" x1="571" y1="41" x2="583" y2="41"/>
+  <path d="M582 37 L588 41 L582 45 Z" fill="#6e7681"/>
+  <rect class="box" style="animation-delay: 3.20s" x="589" y="10" width="126" height="62" rx="10"/>
+  <text x="652" y="39" class="t">Database</text>
+  <text x="652" y="58" class="s">SQL Server · PostgreSQL</text>
+</svg>

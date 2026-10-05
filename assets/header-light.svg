@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 200" width="840" height="200" role="img" aria-labelledby="t d">
+  <title id="t">Ahmed Atef-Hegazy, .NET Backend Developer</title>
+  <desc id="d">Banner with a line that types three phrases in turn: building ASP.NET Core Web APIs; Clean Architecture with EF Core; SQL Server and PostgreSQL / PostGIS.</desc>
+  <style>
+    .name { font: 700 34px 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; fill: #1f2328; }
+    .role { font: 600 17px 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; fill: #6639ba; }
+    .type { font: 15px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #1f2328; }
+    .prompt { fill: #6639ba; font-weight: 700; }
+    .code { font: 12px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #afb8c1; }
+    .code .k { fill: #8c959f; }
+    .ph { opacity: 0; animation: show 12s steps(1, end) infinite; }
+    .caret { animation: blink 1s steps(1, end) infinite; animation-delay: 0.00s; }
+    .flow { animation: flow 10s linear infinite; animation-delay: 0.00s; }
+    @keyframes show { 0% { opacity: 1; } 33.333% { opacity: 0; } 100% { opacity: 0; } }
+    @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } 100% { opacity: 0; } }
+    @keyframes flow { from { transform: translateX(0); } to { transform: translateX(-840px); } }
+    @keyframes sweep1 {
+      0%   { transform: translateX(0); animation-timing-function: steps(30, end); }
+      42%  { transform: translateX(261px); animation-timing-function: linear; }
+      78%  { transform: translateX(261px); animation-timing-function: steps(30, end); }
+      94%  { transform: translateX(0); }
+      100% { transform: translateX(0); }
+    }
+    .cur1 { animation: sweep1 4s infinite; animation-delay: 0.00s; }
+    .ph1 { animation-delay: 0.00s; }
+    @keyframes sweep2 {
+      0%   { transform: translateX(0); animation-timing-function: steps(31, end); }
+      42%  { transform: translateX(269.7px); animation-timing-function: linear; }
+      78%  { transform: translateX(269.7px); animation-timing-function: steps(31, end); }
+      94%  { transform: translateX(0); }
+      100% { transform: translateX(0); }
+    }
+    .cur2 { animation: sweep2 4s infinite; animation-delay: 0.00s; }
+    .ph2 { animation-delay: -8.00s; }
+    @keyframes sweep3 {
+      0%   { transform: translateX(0); animation-timing-function: steps(35, end); }
+      42%  { transform: translateX(304.5px); animation-timing-function: linear; }
+      78%  { transform: translateX(304.5px); animation-timing-function: steps(35, end); }
+      94%  { transform: translateX(0); }
+      100% { transform: translateX(0); }
+    }
+    .cur3 { animation: sweep3 4s infinite; animation-delay: 0.00s; }
+    .ph3 { animation-delay: -4.00s; }
+    @media (prefers-reduced-motion: reduce) {
+      .ph, .cur, .caret, .flow { animation: none !important; }
+      .ph1 { opacity: 1; }
+      .cur { display: none; }
+    }
+  </style>
+  <defs>
+    <clipPath id="card"><rect x="0.5" y="0.5" width="839" height="199" rx="14"/></clipPath>
+    <clipPath id="line"><rect x="40" y="132" width="450" height="34"/></clipPath>
+    <linearGradient id="bar" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="840" y2="0" spreadMethod="repeat">
+      <stop offset="0" stop-color="#6639ba"/>
+      <stop offset="0.33" stop-color="#0969da"/>
+      <stop offset="0.66" stop-color="#1b7c83"/>
+      <stop offset="1" stop-color="#6639ba"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="839" height="199" rx="14" fill="#f6f8fa" stroke="#d0d7de"/>
+  <g clip-path="url(#card)">
+    <rect class="flow" x="0" y="196" width="1680" height="4" fill="url(#bar)"/>
+  </g>
+  <g aria-hidden="true">
+    <text x="572" y="52" class="code" xml:space="preserve"><tspan class="k">builder</tspan>.Services</text>
+    <text x="572" y="70" class="code" xml:space="preserve"><tspan class="k">    </tspan>.AddApplication()</text>
+    <text x="572" y="88" class="code" xml:space="preserve"><tspan class="k">    </tspan>.AddInfrastructure(config);</text>
+    <text x="572" y="124" class="code" xml:space="preserve"><tspan class="k">app</tspan>.UseAuthentication();</text>
+    <text x="572" y="142" class="code" xml:space="preserve"><tspan class="k">app</tspan>.MapControllers();</text>
+    <text x="572" y="160" class="code" xml:space="preserve"><tspan class="k">app</tspan>.Run();</text>
+  </g>
+  <text x="48" y="74" class="name">Ahmed Atef-Hegazy</text>
+  <text x="48" y="104" class="role">.NET Backend Developer</text>
+  <g clip-path="url(#line)">
+    <text x="48" y="154" class="type prompt">&gt;</text>
+    <g class="ph ph1">
+      <text x="66" y="154" class="type" textLength="261.0" lengthAdjust="spacing">building ASP.NET Core Web APIs</text>
+      <g class="cur cur1">
+        <rect x="66" y="135" width="430" height="28" fill="#f6f8fa"/>
+        <rect class="caret" x="67" y="139" width="2" height="19" fill="#6639ba"/>
+      </g>
+    </g>
+    <g class="ph ph2">
+      <text x="66" y="154" class="type" textLength="269.7" lengthAdjust="spacing">Clean Architecture with EF Core</text>
+      <g class="cur cur2">
+        <rect x="66" y="135" width="430" height="28" fill="#f6f8fa"/>
+        <rect class="caret" x="67" y="139" width="2" height="19" fill="#6639ba"/>
+      </g>
+    </g>
+    <g class="ph ph3">
+      <text x="66" y="154" class="type" textLength="304.5" lengthAdjust="spacing">SQL Server and PostgreSQL / PostGIS</text>
+      <g class="cur cur3">
+        <rect x="66" y="135" width="430" height="28" fill="#f6f8fa"/>
+        <rect class="caret" x="67" y="139" width="2" height="19" fill="#6639ba"/>
+      </g>
+    </g>
+  </g>
+</svg>
