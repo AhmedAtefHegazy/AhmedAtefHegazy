@@ -94,4 +94,4 @@ These are learning projects from before my first job.
 
 ## Training
 
-Programming Advices roadmap: more than ten course certificates covering C#, OOP, data structures, algorithms and problem solving, and SQL Server.
+More than 24 course certificates, most of them from the Programming Advices roadmap: C# (Levels 1 and 2), OOP, SQL and T-SQL, data structures, and algorithms and problem solving.
