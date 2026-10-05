@@ -47,7 +47,7 @@ This work lives in private repositories, so the code is not on this profile. Bel
 
 - **Text to speech:** a pipeline on Azure AI Speech that caches generated audio in AWS S3 and keeps a usage ledger for cost tracking.
 - **Purchases:** server-side validation of Apple and Google in-app purchase receipts before a subscription is granted.
-- **Performance:** cut API-to-database traffic by about 99% by caching a 93k-row translation table for 24 hours instead of 5 minutes.
+- **Performance:** cut translation reloads from the database by about 99% by extending the cache lifetime from 5 minutes to 24 hours.
 
 ### NonArabs API
 
@@ -55,7 +55,7 @@ This work lives in private repositories, so the code is not on this profile. Bel
 
 `.NET 8` `EF Core` `SQL Server` `SignalR` `Docker` `Nginx`
 
-- **API:** main backend developer on a Clean Architecture Web API with 44 controllers and about 300 endpoints for booking, lesson scheduling, and credit-based billing.
+- **API:** main backend developer on a Clean Architecture Web API with 43 controllers and about 300 endpoints for booking, lesson scheduling, and credit-based billing.
 - **Real time and jobs:** chat over SignalR, and nine background services for reminders, recurring lessons, and booking expiry.
 - **Security:** JWT, BCrypt, rate limiting, and security-header and exception middleware.
 - **Quality:** more than 100 xUnit tests, including architecture tests that run in CI; deployed with Docker Compose behind Nginx.
